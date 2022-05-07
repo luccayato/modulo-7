@@ -13,7 +13,7 @@ public class A {
 		
 		media = (nota1 + nota2 + nota3 + nota4) / 4;
 		
-		if (media >=70) {
+		/*if (media >=70) {
 			System.out.println("Parabéns você passou de ano: " + media);
 		}
 		if (media >=40 && media <=69) {
@@ -22,14 +22,13 @@ public class A {
 		
 		else {
 		
-			System.out.println("Aluno foi reprovado: " + media);
-		}
-		String saidaResultado;
+			System.out.println("Aluno foi reprovado: " + media); */
 		
-		saidaResultado = media >= 70 ? "Aluno Aprovado" : (media >=40 && media <=69) ? "Aluno em recuperação" : "Aluno Reprovado";
+		String saidaResultado = media >= 70? "Aluno Aprovado" : (media >=40 && media <=69) ? "Aluno em recuperação" : "Aluno Reprovado";
 		
 		System.out.println(saidaResultado);
 		
 	}
 
 }
+
